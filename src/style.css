@@ -1,0 +1,100 @@
+@import '@fontsource/huninn';
+
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Ultralight.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Thin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Semibold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Heavy.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'SFCompactRounded';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/SF-Pro/SFCompactRounded-Black.woff2') format('woff2');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-glow: rgba(255, 255, 255, 0.12);
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000000;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  color: white;
+  -webkit-overflow-scrolling: touch;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.float-anim {
+  animation: float 5s ease-in-out infinite;
+}

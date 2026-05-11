@@ -1,0 +1,194 @@
+{
+  "common": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "precipitation": "Precip",
+    "minutes": "{count} min",
+    "refresh": "Refresh",
+    "settings": "Settings"
+  },
+  "weekdays": {
+    "short": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "shortSimple": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "long": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ]
+  },
+  "tabs": {
+    "general": "General",
+    "clock": "Clock",
+    "weather": "Weather",
+    "calendar": "Calendar",
+    "smart": "Smart"
+  },
+  "settingsDrawer": {
+    "title": "Settings",
+    "tabTitle": "{tab} Settings",
+    "version": "Clock Dashboard v{version}",
+    "copyright": "Copyright © 2025-2026 teojs ↗"
+  },
+  "language": {
+    "label": "Language",
+    "zhCN": "Simplified Chinese",
+    "zhTW": "Traditional Chinese",
+    "enUS": "English"
+  },
+  "generalSettings": {
+    "layout": "Layout",
+    "clockOnlyMode": "Clock Only"
+  },
+  "clockSettings": {
+    "color": "Clock Color",
+    "fontWeight": "Weight",
+    "opacity": "Opacity",
+    "showSeconds": "Show Seconds",
+    "twentyFourHour": "24-hour",
+    "tilt": "Random Tilt"
+  },
+  "calendarSettings": {
+    "weekStart": "Week Starts On",
+    "monday": "Monday",
+    "sunday": "Sunday",
+    "display": "Display",
+    "showHolidays": "Show Holidays"
+  },
+  "weatherSettings": {
+    "locationMode": "Location Mode",
+    "auto": "Auto",
+    "coords": "Coordinates",
+    "city": "City",
+    "longitude": "Longitude",
+    "latitude": "Latitude",
+    "getCoords": "Get Coordinates",
+    "cityNameLabel": "City Name (e.g. Beijing, New York, London, Tokyo)",
+    "cityPlaceholder": "Enter city name",
+    "refreshRate": "Update Frequency",
+    "effects": "Weather Effects",
+    "rainEffect": "Rain",
+    "thunderEffect": "Thunder",
+    "snowEffect": "Snow",
+    "iconLegend": "Legend",
+    "humidity": "Humidity",
+    "airQuality": "Air Quality (US AQI)",
+    "feelsLike": "Feels Like",
+    "uv": "UV Index",
+    "refreshNow": "Refresh Weather Now"
+  },
+  "smartHomeSettings": {
+    "baseConfig": "Basic Config",
+    "listMode": "List Mode",
+    "jsonMode": "JSON Mode",
+    "haUrl": "HA URL",
+    "haUrlPlaceholder": "http://192.168.1.xxx:8123",
+    "token": "Long-lived Token",
+    "tokenPlaceholder": "Enter token",
+    "deviceManagement": "Device Management",
+    "entityCount": "{count} entities",
+    "entityNotePlaceholder": "Alias (optional)",
+    "entityIdPlaceholder": "Entity ID",
+    "addDevice": "Add Device",
+    "jsonPlaceholder": "{ \"url\": \"...\", \"token\": \"...\", \"entities\": [] }",
+    "jsonInvalid": "Invalid JSON. Check and try again.",
+    "jsonInvalidSave": "Invalid JSON. Save failed.",
+    "layoutSettings": "Layout Settings",
+    "columnsPerRow": "columns"
+  },
+  "ha": {
+    "testConnection": "Test Connection",
+    "fillUrlToken": "Please enter HA URL and token",
+    "connectionSuccess": "Connected!",
+    "connectionFailed": "Connection failed. Check URL and token."
+  },
+  "smartHome": {
+    "title": "Smart Control",
+    "connectFailed": "Connection failed. Check network and config.",
+    "actionFailed": "Action failed. Check network and config.",
+    "statusOn": "On",
+    "statusOff": "Off",
+    "notFound": "Entity not found",
+    "setupTip": "Click the top-right settings to configure Home Assistant."
+  },
+  "calendar": {
+    "today": "Today"
+  },
+  "weather": {
+    "fiveDayForecast": "5-Day Forecast",
+    "rainLabel": "Precip",
+    "status": {
+      "loading": "Fetching",
+      "locating": "Locating...",
+      "apiError": "API Error",
+      "updateTimeout": "Update Timeout",
+      "cityEmpty": "City name is empty",
+      "unknownCity": "Unknown City",
+      "defaultCity": "Beijing (Default)"
+    },
+    "conditions": {
+      "0": "Clear",
+      "1": "Mostly Clear",
+      "2": "Partly Cloudy",
+      "3": "Overcast",
+      "45": "Fog",
+      "48": "Rime Fog",
+      "51": "Lt Drizzle",
+      "53": "Drizzle",
+      "55": "Hvy Drizzle",
+      "56": "Lt Freezing Drz",
+      "57": "Freezing Drz",
+      "61": "Lt Rain",
+      "63": "Rain",
+      "65": "Hvy Rain",
+      "66": "Lt Freezing Rain",
+      "67": "Freezing Rain",
+      "71": "Lt Snow",
+      "73": "Snow",
+      "75": "Hvy Snow",
+      "77": "Snow Grains",
+      "80": "Lt Showers",
+      "81": "Showers",
+      "82": "Hvy Showers",
+      "85": "Lt Snow Showers",
+      "86": "Snow Showers",
+      "95": "Thunderstorm",
+      "96": "T-storm + Hail",
+      "99": "Severe T-storm",
+      "unknown": "Unknown"
+    },
+    "aqi": {
+      "good": "Good",
+      "moderate": "Moderate",
+      "light": "Unhealthy (SG)",
+      "medium": "Unhealthy",
+      "heavy": "Very Unhealthy",
+      "severe": "Hazardous"
+    }
+  },
+  "almanac": {
+    "yi": "Auspicious",
+    "ji": "Inauspicious",
+    "hourlyLuck": "Hourly Luck",
+    "pengzu": "Peng Zu Taboos"
+  }
+}

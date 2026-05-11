@@ -1,0 +1,194 @@
+{
+  "common": {
+    "today": "今天",
+    "tomorrow": "明天",
+    "precipitation": "降雨",
+    "minutes": "{count}分",
+    "refresh": "重新整理",
+    "settings": "設定"
+  },
+  "weekdays": {
+    "short": [
+      "週日",
+      "週一",
+      "週二",
+      "週三",
+      "週四",
+      "週五",
+      "週六"
+    ],
+    "shortSimple": [
+      "日",
+      "一",
+      "二",
+      "三",
+      "四",
+      "五",
+      "六"
+    ],
+    "long": [
+      "週日",
+      "週一",
+      "週二",
+      "週三",
+      "週四",
+      "週五",
+      "週六"
+    ]
+  },
+  "tabs": {
+    "general": "通用",
+    "clock": "時鐘",
+    "weather": "天氣",
+    "calendar": "日曆",
+    "smart": "HA"
+  },
+  "settingsDrawer": {
+    "title": "設定中心",
+    "tabTitle": "{tab}設定",
+    "version": "Clock Dashboard v{version}",
+    "copyright": "Copyright © 2025-2026 teojs ↗"
+  },
+  "language": {
+    "label": "語言",
+    "zhCN": "簡體中文",
+    "zhTW": "繁體中文",
+    "enUS": "English"
+  },
+  "generalSettings": {
+    "layout": "界面佈局",
+    "clockOnlyMode": "僅顯示時鐘"
+  },
+  "clockSettings": {
+    "color": "時鐘顏色",
+    "fontWeight": "字重",
+    "opacity": "透明度",
+    "showSeconds": "顯示秒鐘",
+    "twentyFourHour": "24 小時制",
+    "tilt": "隨機傾斜"
+  },
+  "calendarSettings": {
+    "weekStart": "每週開始於",
+    "monday": "星期一",
+    "sunday": "星期日",
+    "display": "顯示設定",
+    "showHolidays": "顯示法定節假日"
+  },
+  "weatherSettings": {
+    "locationMode": "位置取得方式",
+    "auto": "自動定位",
+    "coords": "經緯度",
+    "city": "城市名",
+    "longitude": "經度 (Longitude)",
+    "latitude": "緯度 (Latitude)",
+    "getCoords": "取得經緯度",
+    "cityNameLabel": "城市名稱 (例如: 北京、紐約、London、Tokyo)",
+    "cityPlaceholder": "輸入城市名稱（支援中英文）",
+    "refreshRate": "天氣更新頻率",
+    "effects": "天氣特效顯示",
+    "rainEffect": "下雨特效",
+    "thunderEffect": "打雷特效",
+    "snowEffect": "下雪特效",
+    "iconLegend": "指標圖示說明",
+    "humidity": "相對濕度",
+    "airQuality": "空氣品質（美國 AQI）",
+    "feelsLike": "體感溫度",
+    "uv": "紫外線指數",
+    "refreshNow": "立即更新天氣"
+  },
+  "smartHomeSettings": {
+    "baseConfig": "基礎設定",
+    "listMode": "列表模式",
+    "jsonMode": "JSON 模式",
+    "haUrl": "HA 位址",
+    "haUrlPlaceholder": "http://192.168.1.xxx:8123",
+    "token": "長期存取權杖",
+    "tokenPlaceholder": "輸入權杖",
+    "deviceManagement": "裝置管理",
+    "entityCount": "{count} 個實體",
+    "entityNotePlaceholder": "備註名（可選）",
+    "entityIdPlaceholder": "實體 ID",
+    "addDevice": "新增裝置",
+    "jsonPlaceholder": "{ \"url\": \"...\", \"token\": \"...\", \"entities\": [] }",
+    "jsonInvalid": "JSON 格式錯誤，請檢查後再切換模式",
+    "jsonInvalidSave": "JSON 格式錯誤，儲存失敗",
+    "layoutSettings": "佈局設定",
+    "columnsPerRow": "列"
+  },
+  "ha": {
+    "testConnection": "測試連線",
+    "fillUrlToken": "請填寫 HA 位址和存取權杖",
+    "connectionSuccess": "連線成功！",
+    "connectionFailed": "連線失敗，請檢查位址和權杖是否正確"
+  },
+  "smartHome": {
+    "title": "智慧控制",
+    "connectFailed": "連線失敗，請檢查網路和設定",
+    "actionFailed": "操作失敗，請檢查網路和設定",
+    "statusOn": "已開啟",
+    "statusOff": "已關閉",
+    "notFound": "未找到實體",
+    "setupTip": "請點擊右上角設定 Home Assistant 位址和權杖"
+  },
+  "calendar": {
+    "today": "今天"
+  },
+  "weather": {
+    "fiveDayForecast": "5 日天氣預報",
+    "rainLabel": "降雨",
+    "status": {
+      "loading": "正在取得",
+      "locating": "定位中...",
+      "apiError": "介面錯誤",
+      "updateTimeout": "更新逾時",
+      "cityEmpty": "城市名稱為空",
+      "unknownCity": "未知城市",
+      "defaultCity": "北京市 (預設)"
+    },
+    "conditions": {
+      "0": "晴朗",
+      "1": "晴間多雲",
+      "2": "多雲",
+      "3": "陰",
+      "45": "霧",
+      "48": "沉積霧",
+      "51": "小毛毛雨",
+      "53": "毛毛雨",
+      "55": "大毛毛雨",
+      "56": "輕微凍毛毛雨",
+      "57": "凍毛毛雨",
+      "61": "小雨",
+      "63": "中雨",
+      "65": "大雨",
+      "66": "輕微凍雨",
+      "67": "凍雨",
+      "71": "小雪",
+      "73": "中雪",
+      "75": "大雪",
+      "77": "雪粒",
+      "80": "小陣雨",
+      "81": "陣雨",
+      "82": "強陣雨",
+      "85": "小陣雪",
+      "86": "陣雪",
+      "95": "雷陣雨",
+      "96": "雷雨伴有冰雹",
+      "99": "強雷雨伴冰雹",
+      "unknown": "未知"
+    },
+    "aqi": {
+      "good": "優",
+      "moderate": "良",
+      "light": "輕度",
+      "medium": "中度",
+      "heavy": "重度",
+      "severe": "嚴重"
+    }
+  },
+  "almanac": {
+    "yi": "宜",
+    "ji": "忌",
+    "hourlyLuck": "時辰吉凶",
+    "pengzu": "彭祖百忌"
+  }
+}
