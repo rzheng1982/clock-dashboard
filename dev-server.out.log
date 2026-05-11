@@ -1,0 +1,15 @@
+
+> clock-dashboard@1.20.3 dev C:\Users\rzheng\Downloads\clock-dashboard-main
+> vite "--host" "0.0.0.0" "--port" "3000"
+
+
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m525[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://10.164.129.3:[1m3000[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.31.229:[1m3000[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m10:06:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css, /src/views/SmartHomeView.vue[22m
+[2m10:06:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css, /src/App.vue, /src/components/WeatherEffects.vue, /src/components/Weather.vue, /src/components/settings/WeatherSettings.vue, /src/components/WeatherForecastModal.vue, /src/views/SmartHomeView.vue[22m
+[2m10:07:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css, /src/App.vue, /src/components/WeatherEffects.vue, /src/components/Weather.vue, /src/components/settings/WeatherSettings.vue, /src/components/WeatherForecastModal.vue, /src/views/SmartHomeView.vue[22m
+[2m10:07:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/style.css, /src/App.vue, /src/components/WeatherEffects.vue, /src/components/Weather.vue, /src/components/settings/WeatherSettings.vue, /src/components/WeatherForecastModal.vue, /src/views/SmartHomeView.vue[22m

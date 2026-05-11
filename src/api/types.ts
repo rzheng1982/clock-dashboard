@@ -28,6 +28,71 @@ export interface WeatherApiResponse {
   current_hour_index?: number
 }
 
+export interface QWeatherNowResponse {
+  code: string
+  updateTime?: string
+  now?: {
+    obsTime: string
+    temp: string
+    feelsLike: string
+    icon: string
+    humidity: string
+    precip: string
+    windSpeed: string
+    cloud?: string
+    text?: string
+    isDay?: string
+  }
+}
+
+export interface QWeatherHourlyResponse {
+  code: string
+  hourly?: Array<{
+    fxTime: string
+    temp: string
+    icon: string
+    humidity: string
+    pop?: string
+    precip?: string
+    windSpeed?: string
+    uvIndex?: string
+  }>
+}
+
+export interface QWeatherDailyResponse {
+  code: string
+  daily?: Array<{
+    fxDate: string
+    tempMax: string
+    tempMin: string
+    iconDay: string
+    pop?: string
+    precip?: string
+    uvIndex?: string
+  }>
+}
+
+export interface QWeatherAirResponse {
+  code: string
+  now?: {
+    aqi?: string
+  }
+}
+
+export interface QWeatherCityLookupResponse {
+  code: string
+  location?: Array<{
+    name: string
+    id?: string
+    lat: string
+    lon: string
+    adm1?: string
+    adm2?: string
+    country?: string
+    tz?: string
+  }>
+}
+
 export interface AirQualityApiResponse {
   current: {
     us_aqi: number
